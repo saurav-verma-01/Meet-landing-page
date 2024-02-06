@@ -4,15 +4,64 @@
 .header {
   padding: 5rem 0 3.75rem;
 }
-
 .meet-logo {
   display: block;
   width: 7.5rem;
   height: 1.75rem;
   margin-inline: auto;
 }
+
+.hero-content {
+  display: grid;
+  height: 22.375rem;
+  grid-template-columns: 1fr 33.75rem 1fr;
+}
+
+.banner-content {
+  order: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-self: flex-end;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.banner-content h1 {
+  width: 29rem;
+  margin: 0 auto;
+}
+
 .banner-content p {
   color: var(--grey);
   font-size: 1.125rem;
   line-height: 1.45;
+}
+
+.banner-desk-left,
+.banner-desk-right {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 26rem;
+  height: 20rem;
+}
+
+.banner-desk-left {
+  order: 1;
+  background-image: url("../../desktop/image-hero-left.png");
+  justify-self: flex-start;
+  margin-left: -2rem;
+}
+
+.banner-desk-right {
+  order: 3;
+  background-image: url("../../desktop/image-hero-right.png");
+  align-self: flex-end;
+  justify-self: flex-end;
+  margin-right: -2rem;
 }

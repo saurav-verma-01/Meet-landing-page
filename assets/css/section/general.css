@@ -73,3 +73,11 @@ a {
   color: var(--sky);
   font-weight: 500;
 }
+
+.btn-primary {
+  background-color: var(--blue);
+  padding-inline: 2.5rem;
+}
+.btn-secondary {
+  background-color: var(--purple);
+}
