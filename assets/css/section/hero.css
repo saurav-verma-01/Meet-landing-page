@@ -21,6 +21,7 @@
   flex-direction: column;
   gap: 2rem;
   align-self: flex-end;
+  padding: 1rem;
 }
 
 .btn-container {
@@ -36,8 +37,6 @@
 
 .banner-content p {
   color: var(--grey);
-  font-size: 1.125rem;
-  line-height: 1.45;
 }
 
 .banner-desk-img {

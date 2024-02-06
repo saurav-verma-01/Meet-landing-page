@@ -24,8 +24,9 @@
 
   .banner-content {
     background-color: wheat;
-    max-width: 32rem;
+    max-width: 36rem;
     justify-self: center;
+    padding: 1rem 2rem;
   }
 
   .body {
@@ -55,5 +56,8 @@
   .heading-1 {
     font-size: 2.5rem;
     line-height: 1.1;
+  }
+  .banner-content {
+    padding: 1rem 1.5rem;
   }
 }
