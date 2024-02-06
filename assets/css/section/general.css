@@ -1,0 +1,41 @@
+:root {
+  --blue: #4d96a9;
+  --sky: #8fe3f9;
+  --purple: #855fb1;
+  --dark: #28283d;
+  --grey: #87879d;
+  --light-grey: #d9b8ff;
+  --light: #fafafa;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: local("Red Hat Display Medium")
+      url("../../fonts/redhatdisplay-medium-webfont.woff2") format("woff2"),
+    url("../../fonts/redhatdisplay-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: local("Red Hat Display Black")
+      url("../../fonts/redhatdisplay-black-webfont.woff2") format("woff2"),
+    url("../../fonts/redhatdisplay-black-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
+
+.heading-1 {
+}
+.heading-2 {
+}
+.body-1 {
+}
