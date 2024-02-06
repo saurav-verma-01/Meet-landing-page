@@ -1,6 +1,3 @@
-.hero {
-}
-
 .header {
   padding: 5rem 0 3.75rem;
 }
@@ -13,8 +10,8 @@
 
 .hero-content {
   display: grid;
-  height: 22.375rem;
-  grid-template-columns: 1fr 33.75rem 1fr;
+  height: 23rem;
+  grid-template-columns: 5fr 8fr 5fr;
 }
 
 .banner-content {
@@ -43,25 +40,26 @@
   line-height: 1.45;
 }
 
-.banner-desk-left,
-.banner-desk-right {
+.banner-desk-img {
   background-size: cover;
   background-repeat: no-repeat;
-  width: 26rem;
-  height: 20rem;
+  width: 100%;
+  max-width: 26rem;
 }
 
-.banner-desk-left {
+.banner-desk-img-left {
   order: 1;
-  background-image: url("../../desktop/image-hero-left.png");
   justify-self: flex-start;
   margin-left: -2rem;
 }
 
-.banner-desk-right {
+.banner-desk-img-right {
   order: 3;
-  background-image: url("../../desktop/image-hero-right.png");
   align-self: flex-end;
   justify-self: flex-end;
   margin-right: -2rem;
+}
+
+.banner-tab-img {
+  display: none;
 }

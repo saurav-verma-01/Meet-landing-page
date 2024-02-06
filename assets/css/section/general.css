@@ -35,12 +35,17 @@
   font-style: normal;
   font-display: swap;
 }
-
+html {
+  width: 100%;
+}
 body {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
   background: var(--light);
   color: var(--dark);
+  width: 100%;
+  font-size: 1.125rem;
+  line-height: 1.45;
 }
 
 a {
