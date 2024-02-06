@@ -1,0 +1,18 @@
+.hero {
+}
+
+.header {
+  padding: 5rem 0 3.75rem;
+}
+
+.meet-logo {
+  display: block;
+  width: 7.5rem;
+  height: 1.75rem;
+  margin-inline: auto;
+}
+.banner-content p {
+  color: var(--grey);
+  font-size: 1.125rem;
+  line-height: 1.45;
+}
